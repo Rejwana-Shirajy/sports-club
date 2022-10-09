@@ -1,0 +1,15 @@
+.gallery .image{
+    width: 31%;
+    margin: 1%;
+    float: left;
+}
+.image img{
+   width: 100%;
+   transition: all ease 0.5s;
+   
+   transform: scale(1);
+   
+}
+.image img:hover{
+   transform: scale(1.2);
+}
